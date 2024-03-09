@@ -230,7 +230,7 @@ const Resume =forwardRef( (props,ref) => {
 
   return (
     <div ref={ref}>
-      <div className='container min-w-[700px] min-h-[900px] h-fit shadow-lg border p-12 '
+      <div className='container min-w-[842px] min-h-[1190px] h-fit shadow-lg border p-12 '
         ref={containerRef}>
             <div className=' mr-10 text-left '>
             {/* <p className='text-3xl font-semibold'>{info?.basciInfo?.detail?.name}</p> */}
