@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+.container{
+  --color: #239ce2;
+}
+.headBg{
+  background-color: rgb(230, 248, 249);
+}
+
+.chip .active{
+  background-color: #239ce2;
+}
+
+.active{
+  border: solid 3px black;
+}
+
+.color{
+  color: var(--color);
+}
